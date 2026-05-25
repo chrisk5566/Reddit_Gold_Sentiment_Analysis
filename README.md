@@ -10,16 +10,17 @@ To showcase the methodology without requiring users to re-run computationally in
 Extracts Reddit data from the `.zst` files obtained through Academic Torrents and prepares the raw dataset for analysis.
 
 **sentiment_analysis.ipynb**  
-Contains the full code used for the original research and complete sentiment analysis pipeline.
+Contains the full code used for the original research and complete sentiment analysis pipeline. The notebook has already been executed and includes generated outputs, allowing users to inspect the methodology and results without re-running the full analysis.
 
 **test_sentiment_analysis.ipynb**  
-Provides a demonstration version of the sentiment analysis workflow. It takes `test_sentiment_dataset.csv` as input and runs the analysis on a smaller subsample of the full `raw_gold_sentiment_data.csv` dataset, allowing users to reproduce the methodology without extensive computational requirements.
+Provides a demonstration version of the sentiment analysis workflow. It takes `test_sentiment_dataset.csv` as input and runs the analysis on a smaller subsample of the uploaded `raw_gold_sentiment_data.csv` dataset, allowing users to reproduce the methodology without extensive computational requirements.
 
 ## Remarks
 
-- `sentiment_analysis.ipynb` contains the full code used for the original research and complete sentiment analysis pipeline. The notebook has already been executed and includes the generated     outputs, allowing users to inspect the methodology and results without re-running the full analysis.
-- `test_sentiment_analysis.ipynb` is intended for demonstration and reproducibility purposes and operates on a reduced dataset.
-- The full `raw_gold_sentiment_data.csv` dataset is substantially larger than the demonstration sample and was used for the final empirical analysis.
+- `sentiment_analysis.ipynb` contains the complete code used for the thesis research and is provided in executed form with output cells included.
+- The original Reddit dataset extracted for the research is not included in this repository due to its large file size, which exceeds GitHub upload limitations.
+- Therefore, a smaller subsample of the original dataset has been uploaded as `raw_gold_sentiment_data.csv` for demonstration and reproducibility purposes.
+- `test_sentiment_analysis.ipynb` is intended for demonstration and reproducibility purposes and operates on this reduced dataset.
 - `academic_torrents_data_extraction.ipynb` contains the extraction procedure for Reddit data stored in `.zst` format.
 - The Academic Torrents dataset used for data extraction can be found here:  
   https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4
