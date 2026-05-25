@@ -4,7 +4,7 @@ This is the GitHub Repository corresponding to the BSc Thesis *"The Predictive P
 
 To showcase the methodology without requiring users to re-run computationally intensive code, the repository contains processed datasets and demonstration files that illustrate each stage of the workflow and how the data is transferred between preprocessing steps.
 
-## workflow
+## Workflow
 
 **academic_torrents_data_extraction.ipynb**  
 Extracts Reddit data from the `.zst` files obtained through Academic Torrents and prepares the raw dataset for analysis.
@@ -15,7 +15,7 @@ Contains the full code used for the original research and complete sentiment ana
 **test_sentiment_analysis.ipynb**  
 Provides a demonstration version of the sentiment analysis workflow. It takes `test_sentiment_dataset.csv` as input and runs the analysis on a smaller subsample of the full `raw_gold_sentiment_data.csv` dataset, allowing users to reproduce the methodology without extensive computational requirements.
 
-## remarks
+## Remarks
 
 - `sentiment_analysis.ipynb` contains the complete code used for the thesis research.
 - `test_sentiment_analysis.ipynb` is intended for demonstration and reproducibility purposes and operates on a reduced dataset.
