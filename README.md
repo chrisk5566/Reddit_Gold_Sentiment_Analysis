@@ -17,7 +17,7 @@ Provides a demonstration version of the sentiment analysis workflow. It takes `t
 
 ## Remarks
 
-- `sentiment_analysis.ipynb` contains the complete code used for the thesis research.
+- `sentiment_analysis.ipynb` contains the full code used for the original research and complete sentiment analysis pipeline. The notebook has already been executed and includes the generated     outputs, allowing users to inspect the methodology and results without re-running the full analysis.
 - `test_sentiment_analysis.ipynb` is intended for demonstration and reproducibility purposes and operates on a reduced dataset.
 - The full `raw_gold_sentiment_data.csv` dataset is substantially larger than the demonstration sample and was used for the final empirical analysis.
 - `academic_torrents_data_extraction.ipynb` contains the extraction procedure for Reddit data stored in `.zst` format.
