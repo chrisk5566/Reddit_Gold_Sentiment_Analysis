@@ -21,6 +21,7 @@ Provides a demonstration version of the sentiment analysis workflow. It takes `t
 - The original Reddit dataset extracted for the research is not included in this repository due to its large file size, which exceeds GitHub upload limitations.
 - Therefore, a smaller subsample of the original dataset has been uploaded as `raw_gold_sentiment_data.csv` for demonstration and reproducibility purposes.
 - `test_sentiment_analysis.ipynb` is intended for demonstration and reproducibility purposes and operates on this reduced dataset.
+- Python **3.10** is recommended for running the code, as the FinBERT library may not function reliably with newer Python versions.
 - `academic_torrents_data_extraction.ipynb` contains the extraction procedure for Reddit data stored in `.zst` format.
 - The Academic Torrents dataset used for data extraction can be found here:  
   https://academictorrents.com/details/3e3f64dee22dc304cdd2546254ca1f8e8ae542b4
