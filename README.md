@@ -13,7 +13,7 @@ Extracts Reddit data from the `.zst` files obtained through Academic Torrents an
 Contains the full code used for the original research and complete sentiment analysis pipeline. The notebook has already been executed and includes generated outputs, allowing users to inspect the methodology and results without re-running the full analysis.
 
 **test_sentiment_analysis.ipynb**  
-Provides a demonstration version of the sentiment analysis workflow. It takes `test_sentiment_dataset.csv` as input and runs the analysis on a smaller subsample of the uploaded `raw_gold_sentiment_data.csv` dataset, allowing users to reproduce the methodology without extensive computational requirements.
+Provides a demonstration version of the sentiment analysis workflow. It takes `test_sentiment_dataset.csv` as input and runs the analysis on a smaller subsample of the original dataset, allowing users to reproduce the methodology without extensive computational requirements.
 
 ## Remarks
 
